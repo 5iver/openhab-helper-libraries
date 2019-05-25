@@ -35,3 +35,15 @@ This script will parse all Alexa voice commands, and if they match the text in t
 For example, I can ask Alexa "Are the doors locked?", and the device that I asked will respond with "all doors are locked" or a list of the unlocked doors. 
 Additional phrases can be added.
 </ul>
+
+#### Script: [`ideAlarm`](../../Community/IdeAlarm/automation/lib/python/community/idealarm/README.md)
+<ul>
+
+Multi Zone Home Alarm Script. Your home is your castle. Keeping it safe and secure is a top priority of many homeowners. With ideAlarm, you can easily set up your own DIY Home Security System using the sensors that you already have in openHAB.
+</ul>
+
+#### Script: [`WeatherStationUploader`](../../Community/WeatherStationUploader/automation/jsr223/python/community/weatherstationuploader/README.md)
+<ul>
+
+This scripts let you upload weather data using your existing openHab weather aware sensors to [Weather Underground](https://www.wunderground.com/).
+</ul>
