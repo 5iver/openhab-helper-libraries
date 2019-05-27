@@ -5,20 +5,6 @@
 Community submitted packages, modules and scripts provide additional functionality, on top of what is found in the `core` package and scripts.
 When choosing to use a solution submitted by the community, the files will need to be copied to the proper directories. 
 
-#### Script: [`esper_example.py`](../../Community/Esper/automation/jsr223/python/community/esper/esper.py.example)
-<ul>
-
-Shows an example of using the Esper component.
-The `esper` package`000_Esper.py` component script must also be installed.
-</ul>
-
-#### Script: [`owm_daily_forecast.py`](../../Community/OpenWeatherMap/automation/jsr223/python/community/openweathermap/owm_daily_forecast.py)
-<ul>
-
-Using a free API key, this script will create the Items and groups, and will move the hourly forecast Items into groups that provide a daily forecast.
-[Discussed in the forum](https://community.openhab.org/t/openweathermap-daily-forecast-using-the-free-api/62579).
-</ul>
-
 #### Script: [`delete_zwave_things.py`](../../Community/Delete%20and%20Rediscover%20Z-Wave%20Things/automation/jsr223/python/community/delete_zwave_things/delete_zwave_things.py)
 <ul>
 
@@ -26,6 +12,27 @@ In order to pickup changes to a Thing definition after upgrading a binding, the 
 With many Things, this is a challenge. 
 This script automates the process of deleting all Z-Wave Things and then rediscovering them. 
 [Discussed in the forum](https://community.openhab.org/t/rule-for-deleting-and-rediscovering-things/41001).
+</ul>
+
+#### Script: [`esper_example.py`](../../Community/Esper/automation/jsr223/python/community/esper/esper.py.example)
+<ul>
+
+Shows an example of using the Esper component.
+The `esper` package`000_Esper.py` component script must also be installed.
+</ul>
+
+
+#### Script: [`ideAlarm`](../../Community/IdeAlarm/Docs/README.md)
+<ul>
+
+Multi Zone Home Alarm Script. Your home is your castle. Keeping it safe and secure is a top priority of many homeowners. With ideAlarm, you can easily set up your own DIY Home Security System using the sensors that you already have in openHAB.
+</ul>
+
+#### Script: [`owm_daily_forecast.py`](../../Community/OpenWeatherMap/automation/jsr223/python/community/openweathermap/owm_daily_forecast.py)
+<ul>
+
+Using a free API key, this script will create the Items and groups, and will move the hourly forecast Items into groups that provide a daily forecast.
+[Discussed in the forum](https://community.openhab.org/t/openweathermap-daily-forecast-using-the-free-api/62579).
 </ul>
 
 #### Script: [`speak_and_respond.py`](../../Community/Alexa%20Speak%20and%20Respond/automation/jsr223/python/community/speak_and_respond/speak_and_respond.py)
@@ -36,13 +43,7 @@ For example, I can ask Alexa "Are the doors locked?", and the device that I aske
 Additional phrases can be added.
 </ul>
 
-#### Script: [`ideAlarm`](../../Community/IdeAlarm/automation/lib/python/community/idealarm/README.md)
-<ul>
-
-Multi Zone Home Alarm Script. Your home is your castle. Keeping it safe and secure is a top priority of many homeowners. With ideAlarm, you can easily set up your own DIY Home Security System using the sensors that you already have in openHAB.
-</ul>
-
-#### Script: [`WeatherStationUploader`](../../Community/WeatherStationUploader/automation/jsr223/python/community/weatherstationuploader/README.md)
+#### Script: [`WeatherStationUploader`](../../Community/WeatherStationUploader/Docs/README.md)
 <ul>
 
 This scripts let you upload weather data using your existing openHab weather aware sensors to [Weather Underground](https://www.wunderground.com/).
